@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Title of the documents application [CHAR LIMIT=32] -->
+    <string name="app_label">Documents</string>
+
+    <!-- Action bar title prompting user to choose a location to open a document from [CHAR LIMIT=32] -->
+    <string name="title_open">Open from</string>
+    <!-- Action bar title prompting user to choose a location to save a document to [CHAR LIMIT=32] -->
+    <string name="title_save">Save to</string>
+
+    <!-- Menu item that creates a new directory/folder at the current location [CHAR LIMIT=24] -->
+    <string name="menu_create_dir">Create folder</string>
+    <!-- Menu item that switches view to show documents as a large-format grid of thumbnails [CHAR LIMIT=24] -->
+    <string name="menu_grid">Grid view</string>
+    <!-- Menu item that switches view to show documents as a list [CHAR LIMIT=24] -->
+    <string name="menu_list">List view</string>
+    <!-- Menu item that switches the criteria with which documents are sorted [CHAR LIMIT=24] -->
+    <string name="menu_sort">Sort by</string>
+    <!-- Menu item that enters a mode to search for documents [CHAR LIMIT=24] -->
+    <string name="menu_search">Search</string>
+    <!-- Menu item that enters activity to change settings [CHAR LIMIT=24] -->
+    <string name="menu_settings">Settings</string>
+
+    <!-- Menu item title that opens the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_open">Open</string>
+    <!-- Menu item title that saves the current document [CHAR LIMIT=24] -->
+    <string name="menu_save">Save</string>
+    <!-- Menu item title that shares the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_share">Share</string>
+    <!-- Menu item title that deletes the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_delete">Delete</string>
+    <!-- Menu item title that selects the current directory [CHAR LIMIT=48] -->
+    <string name="menu_select">Select \"<xliff:g id="directory" example="My Directory">^1</xliff:g>\"</string>
+
+    <!-- Menu item that reveals internal storage built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_show" product="default">Show internal storage</string>
+    <!-- Menu item that hides internal storage built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_hide" product="default">Hide internal storage</string>
+
+    <!-- Menu item that reveals the sizes of displayed files [CHAR LIMIT=24] -->
+    <string name="menu_file_size_show">Show file size</string>
+    <!-- Menu item that hides the sizes of displayed files [CHAR LIMIT=24] -->
+    <string name="menu_file_size_hide">Hide file size</string>
+
+    <!-- Action mode title summarizing the number of documents selected [CHAR LIMIT=32] -->
+    <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> selected</string>
+
+    <!-- Mode that sorts documents by their display name alphabetically [CHAR LIMIT=24] -->
+    <string name="sort_name">By name</string>
+    <!-- Mode that sorts documents by their last modified time in descending order; most recent first [CHAR LIMIT=24] -->
+    <string name="sort_date">By date modified</string>
+    <!-- Mode that sorts documents by their file size in descending order; largest first [CHAR LIMIT=24] -->
+    <string name="sort_size">By size</string>
+
+    <!-- Accessibility title to open the drawer showing all roots where documents can be stored [CHAR LIMIT=32] -->
+    <string name="drawer_open">Show roots</string>
+    <!-- Accessibility title to close the drawer showing all roots where documents can be stored [CHAR LIMIT=32] -->
+    <string name="drawer_close">Hide roots</string>
+
+    <!-- Toast shown when saving a document failed with an error [CHAR LIMIT=48] -->
+    <string name="save_error">Failed to save document</string>
+    <!-- Toast shown when creating a folder failed with an error [CHAR LIMIT=48] -->
+    <string name="create_error">Failed to create folder</string>
+    <!-- Error message shown when querying for a list of documents failed [CHAR LIMIT=48] -->
+    <string name="query_error">Failed to query documents</string>
+
+    <!-- Title of storage root location that contains recently modified or used documents [CHAR LIMIT=24] -->
+    <string name="root_recent">Recent</string>
+    <!-- Subtitle of storage root indicating the total free space available, in bytes [CHAR LIMIT=24] -->
+    <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> free</string>
+
+    <!-- Header title for list of storage roots that contains cloud services [CHAR LIMIT=24] -->
+    <string name="root_type_service">Storage services</string>
+    <!-- Header title for list of storage roots that contains shortcuts to documents that may be available elsewhere [CHAR LIMIT=24] -->
+    <string name="root_type_shortcut">Shortcuts</string>
+    <!-- Header title for list of storage roots that contains physical devices [CHAR LIMIT=24] -->
+    <string name="root_type_device">Devices</string>
+    <!-- Header title for list of additional apps that can provide documents [CHAR LIMIT=24] -->
+    <string name="root_type_apps">More apps</string>
+
+    <!-- Text shown when a directory of documents is empty [CHAR LIMIT=24] -->
+    <string name="empty">No items</string>
+
+    <!-- Toast shown when no app can be found to open the selected document [CHAR LIMIT=48] -->
+    <string name="toast_no_application">Can\'t open file</string>
+    <!-- Toast shown when some of the selected documents failed to be deleted [CHAR LIMIT=48] -->
+    <string name="toast_failed_delete">Unable to delete some documents</string>
+
+    <!-- Title of dialog when prompting user to select an app to share documents with [CHAR LIMIT=32] -->
+    <string name="share_via">Share via</string>
+    <string name="cloud_gdrive">Google Drive</string>
+    <string name="cloud_dropbox">Dropbox</string>
+    <string name="cloud_onedrive">One Drive</string>
+    <string name="cloud_box">Box</string>
+    <string name="network_ftp">FTP</string>
+    <string name="wallpaper_set">Apply</string>
+    <string name="wall_loading">Loading…</string>
+    <string name="wall_set_lock">Lock wallpaper</string>
+    <string name="wall_set_desktop">Wallpaper</string>
+    <string name="wall_set_all">Apply to everything</string>
+    <string name="wall_name">Wallpapers</string>
+    <string name="temp_title">Temporary title</string>
+    <string name="wall_more">See more…</string>
+    <string name="device_name">Info Device</string>
+    <string name="device_share">Share</string>
+    <string name="device_copy">Copy</string>
+    <string name="device_copyall">Copy all</string>
+    <string name="device_shareall">Share all</string>
+    <string name="press_again">Press again to exit</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="type">Type:</string>
+    <string name="size">Size:</string>
+    <string name="contents">Contents:</string>
+    <string name="last_modified">Last modified:</string>
+    <string name="path">Path:</string>
+    <string name="recent_media">Recent Media</string>
+    <!-- Menu item title that compress the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_compress">Compress</string>
+    <!-- Menu item title that uncompress the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_uncompress">Uncompress</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_paste">Paste</string>
+    <string name="menu_create_file">Create file</string>
+    <string name="menu_uninstall">Uninstall</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_properties">Properties</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_add">Add</string>
+
+    <string name="root_images">Images</string>
+    <string name="root_audio">Audio</string>
+    <string name="root_videos">Video</string>
+    <string name="root_internal_storage">Internal Storage</string>
+    <string name="root_external_storage">External Storage</string>
+    <string name="root_phone_storage">Phone</string>
+    <string name="root_root_storage">Root</string>
+    <string name="root_bluetooth">Bluetooth</string>
+    <string name="root_downloads">Downloads</string>
+    <string name="root_app_backup">App Backup</string>
+    <string name="root_hidden">Hidden</string>
+    <string name="root_apps">User Apps</string>
+    <string name="root_system_apps">System Apps</string>
+    <string name="root_heat_map" translatable="false">Heat map</string>
+    <string name="root_processes">Processes</string>
+    <string name="root_home" translatable="false">Home</string>
+    <string name="root_connections">Connections</string>
+    <string name="root_document">Documents</string>
+    <string name="root_archive">Archives</string>
+    <string name="root_apk" translatable="false">APK</string>
+
+    <!-- Title for setting that will show all advanced storage devices [CHAR LIMIT=32] -->
+    <string name="pref_advanced_devices">Display advanced</string>
+    <!-- Title for setting that will show file sizes for all documents [CHAR LIMIT=32] -->
+    <string name="pref_file_size">Display file size</string>
+    <string name="pref_device_size">Display device size</string>
+
+    <!--
+         Status indicating that the download has been queued to start in the future.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=24]
+    -->
+    <string name="download_queued">Queued</string>
+    <!--
+         Status indicating that the system is currently downloading the file.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=24]
+    -->
+    <string name="download_running">In progress</string>
+    <!--
+         Status indicating that the download has ended without completing successfully.  Appears for
+         an individual item in the download list.  [CHAR LIMIT=24]
+    -->
+    <string name="download_error">Unsuccessful</string>
+
+    <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
+    <string name="download_running_percent">In progress, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="name" translatable="false">HawkToolEx</string>
+    <string name="app_name" translatable="false">HawkToolEx</string>
+    <string name="app_ver" translatable="false">HawkToolEx</string>
+    <string name="app_company" translatable="false">Developed By TeamRedHawk</string>
+    <string name="app_url" translatable="false">https://www.teamredhawk.net</string>
+    <string name="app_about">This tool will help you to do everything you need for the port without the need for a PC.</string>
+    <string name="twitter">Not Exists</string>
+    <string name="pref_folder_size">Display folder size</string>
+    <string name="pref_thumbnail">Display file thumbnails</string>
+    <string name="pref_hidden">Show hidden files</string>
+    <string name="pref_root_mode">Display Root Mode</string>
+    <string name="pref_translucent_mode">Display Translucent Mode</string>
+    <string name="pref_as_dialog">Display as Dialog</string>
+    <string name="pref_folder_animations">Enable folder animations</string>
+    <string name="pref_recent_media">Show recent media</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_security">Security</string>
+    <string name="pref_header_theme">Theme</string>
+    <string name="pref_header_advanced">Advanced</string>
+    <string name="pref_title_pin_enable">Enable PIN Protection</string>
+    <string name="pref_description_pin_enable">Gives security to your files</string>
+    <string name="pref_title_pin_set">Set PIN</string>
+    <string name="pref_default_pin_set">PIN protection disabled</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="enter_new_pin">Enter New PIN</string>
+    <string name="incorrect_pin">Incorrect PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="pin_mismatch">PIN did not match</string>
+    <string name="pin_set">PIN protection enabled</string>
+    <string name="pin_disabled">PIN protection disabled</string>
+    <string name="pin_protection">PIN Protection</string>
+    <string name="loading">Loading...</string>
+    <string name="pref_foreground_color_title">Primary Color</string>
+    <string name="pref_foreground_color_description">The main color of actionbar</string>
+    <string name="pref_accent_color_title" translatable="false">Accent Color</string>
+    <string name="pref_accent_color_description">The secondary color</string>
+
+    <string name="pref_theme_style_title">Theme Style</string>
+    <string name="pref_theme_style_description">The style of theme</string>
+
+    <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+    <string name="bytes" translatable="false"><xliff:g id="count">%s</xliff:g> B</string>
+    <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+    <string name="kilobytes" translatable="false"><xliff:g id="count">%s</xliff:g> KB</string>
+    <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5] -->
+    <string name="megabytes" translatable="false"><xliff:g id="count">%s</xliff:g> MB</string>
+    <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5] -->
+    <string name="gigabytes" translatable="false"><xliff:g id="count">%s</xliff:g> GB</string>
+    <string name="title_activity_donate">Donate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="saving">Saving...</string>
+    <string name="unsaved_changes_desc">You have unsaved changes, Save them?</string>
+    <string name="unable_to_open_app">Unable to open app</string>
+    <string name="more">More</string>
+    <string name="saf_issue">Your System doesnt allow this operation on Secondary storage on Kitkat. Upgrade to Lollipop to solve this issue..</string>
+    <string name="rename_error">Failed to rename</string>
+    <string name="compress_error">Failed to compress</string>
+    <string name="uncompress_error">Failed to uncompress</string>
+    <string name="upload_error">Failed to upload</string>
+    <string name="add">Add</string>
+    <string name="made_with_love">Made with Love</string>
+    <string name="dworks_logo" translatable="false">DWorkS logo</string>
+
+    <string-array name="theme_style_names">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="theme_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="root_usb">USB Storage</string>
+    <string name="root_documents">Documents</string>
+
+    <string name="ext_media_status_removed" msgid="6576172423185918739">"Removed"</string>
+    <string name="ext_media_status_unmounted" msgid="2551560878416417752">"Ejected"</string>
+    <string name="ext_media_status_checking" msgid="6193921557423194949">"Checking…"</string>
+    <string name="ext_media_status_mounted" msgid="7253821726503179202">"Ready"</string>
+    <string name="ext_media_status_mounted_ro" msgid="8020978752406021015">"Read-only"</string>
+    <string name="ext_media_status_bad_removal" msgid="8395398567890329422">"Removed unsafely"</string>
+    <string name="ext_media_status_unmountable" msgid="805594039236667894">"Corrupted"</string>
+    <string name="ext_media_status_unsupported" msgid="4691436711745681828">"Unsupported"</string>
+    <string name="ext_media_status_ejecting" msgid="5463887263101234174">"Ejecting…"</string>
+    <string name="ext_media_status_formatting" msgid="1085079556538644861">"Formatting…"</string>
+    <string name="ext_media_status_missing" msgid="5638633895221670766">"Not inserted"</string>
+
+    <string name="storage_internal" msgid="4891916833657929263">"Internal storage"</string>
+    <string name="storage_sd_card" msgid="3282948861378286745" translatable="false">"SD card"</string>
+    <string name="storage_sd_card_label" msgid="6347111320774379257" translatable="false">"<xliff:g id="MANUFACTURER">%s</xliff:g> SD card"</string>
+    <string name="storage_usb_drive" msgid="6261899683292244209" translatable="false">"USB drive"</string>
+    <string name="storage_usb_drive_label" msgid="4501418548927759953" translatable="false">"<xliff:g id="MANUFACTURER">%s</xliff:g> USB drive"</string>
+    <string name="storage_usb" msgid="3017954059538517278">"USB storage"</string>
+
+    <string name="storage_stats" translatable="false"><xliff:g id="size" example="3GB">%1$s</xliff:g> /<xliff:g id="size" example="3GB">%2$s</xliff:g></string>
+
+    <string name="start_ftp">Start</string>
+    <string name="stop_ftp">Stop</string>
+    <string name="ftp_status_running">Running</string>
+    <string name="ftp_status_not_running">Not Running</string>
+    <string name="ftp_no_wifi">Make sure you\'re connected to WiFi</string>
+    <string name="ftp_notif_starting">Transfer to PC is starting</string>
+    <string name="ftp_notif_title">Transfer to PC started</string>
+    <string name="ftp_notif_text">at %s</string>
+    <string name="ftp_notif_stop_server">STOP</string>
+    <string name="toggle_messages">Transfer to PC</string>
+
+    <string-array name="connection_types">
+        <item>FTP</item>
+        <item>FTPS</item>
+    </string-array>
+
+    <string name="primary_color">Primary Color</string>
+    <string name="accent_color" translatable="false">Accent Color</string>
+    <string name="app_about_info">An app that will facilitate your port.</string>
+    <string name="app_contrib">Base file explorer by AnExplorer, Team RedHawk for modules and adapter.</string>
+    <string name="gplus">Not Exists</string>
+    <string name="unsaved_changes">Unsaved Changes</string>
+    <string name="pref_header_module">Modules</string>
+    <string name="pref_unpackrepack">Enable Unpack-Repack module</string>
+    <string name="pref_wallpaper">Enable Wallpapers module</string>
+    <string name="pref_infodevice">Enable InfoDevice module</string>
+    <string name="unrepack_not_root">Root access is required</string>
+    <string name="unrepack_not_busybox">Busybox app is not installed</string>
+    <string name="unrepack_error_copy_files">Error in copy tools files</string>
+    <string name="unrepack_error_copy_bash">Error in copy bash file</string>
+    <string name="unrepack_completed">Succesful module enable :3</string>
+    <string name="unrepack_msg_inprogress">In progress...</string>
+    <string name="unrepack_error_unpack">Failed in unpack.</string>
+    <string name="unrepack_error_repack">Failed in repack</string>
+    <string name="unrepack_title_unpack">Name of .img file</string>
+    <string name="unrepack_title_repack">Name of directory and output file</string>
+    <string name="unrepack_name_unpack" translatable="false">Unpack</string>
+    <string name="unrepack_name_repack" translatable="false">Repack</string>
+    <string name="unrepack_error_not_enabled">Not enabled tool :s</string>
+    <string name="unrepack_error_emptyfield">Some of the fields are empty</string>
+    <string name="unrepack_error_ext_not_compatibility">The extension must be .img</string>
+    <string name="unrepack_error_file_not_found">"The file is not in current directory "</string>
+    <string name="unrepack_error_already_exists_directory">The output directory already exists</string>
+    <string name="unrepack_error_already_exists_file">The output file already exists</string>
+    <string name="about_play_store">Rate us on Play store</string>
+    <string name="about_support_donate">Show us more love</string>
+    <string name="about_share">Spread the word</string>
+    <string name="about_feed">Feed us back</string>
+    <string name="about_sources">Sources:</string>
+    <string name="about_version_checker">Update version of app</string>
+    <string name="credits">Credits:</string>
+    <string name="dialog_msg">This app was made for all those portes that want to port a rom at any time without having to use a PC, with this app you can already do it comes with a zip file extractor and boot.img"</string>
+    <string name="dialog_msg2">We are a group of Android developers that aim to improve our Android devices and the sea in performance and among other things.</string>
+    <string name="wall_error">Error applying wallpaper</string>
+    <string name="wall_sucessful">Applied wallpaper</string>
+    <string name="wall_error_lock">Error applying lock wallpaper</string>
+    <string name="root_menu_storage">Storage</string>
+    <string name="root_menu_extras">Extras</string>
+    <string name="root_menu_network">Network &amp; Cloud</string>
+    <string name="root_menu_apps">Apps</string>
+    <string name="root_menu_library">Library</string>
+    <string name="root_menu_folders">Folders</string>
+</resources>
